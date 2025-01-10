@@ -1,4 +1,30 @@
-.navbar{
+.cenik{
+	position: relative;
+	top:20px;
+	left:10vw;
+	font-family: arial, sans-serif;
+	border-collapse:collapse;
+	width: 50%;
+  }
+.tb1{
+	text-align:center;
+	padding: 10px;
+	background-color: #1d7680;
+}
+  td{
+	border: 2px solid #1d7680;
+	text-align:center;
+	padding: 13px;
+	background-color: #9dd6db;
+  }
+  th{
+	border: 2px solid #1d7680;
+	text-align:center;
+	padding: 10px;
+	background-color: #6bbac2;
+  }
+
+  .navbar{
 	background-color: rgb(9, 95, 95);
 	display: flex;
 	padding: 2vh 2vw;
@@ -32,11 +58,6 @@
 	position:relative;
 	height:20vh;
 	top:-2.2vh;
-}
-h1{
-	color: #dd33be;
-	text-shadow: #241221;
-
 }
 body{
 	background: #5baeb6;
