@@ -5,20 +5,33 @@
 	position:absolute;
 	left: 0px;
 	right: 0px;
+	top:12vh;
 }
 .navBar{
-	height: 3vh;
+	height: 5vh;
 	position: relative;
 	left: 10px;
 	background-color: rgb(11, 255, 202);
-    border-radius: 0.1rem;
+    border-radius: 0.5rem;
 	border-width: 0px;
 	border-color:rgb(9, 95, 95);
 	margin: 0px 5px;
+	font: 1.2em "Comic Sans MS";
 }
 .navBar:hover{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.text{
+	color: azure;
+	position: relative;
 	
+}
+.logo{
+	display: flex;
+	position:relative;
+	height:20vh;
+	top:-2.2vh;
 }
 h1{
 	color: #dd33be;
@@ -26,5 +39,5 @@ h1{
 
 }
 body{
-	background: #0b3033;
+	background: #348188;
 }
