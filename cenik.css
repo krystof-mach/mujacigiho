@@ -1,0 +1,36 @@
+:root{
+	--tabulka-color1:rgb(226, 210, 255);
+	--tabulka-color2:rgb(232, 215, 255);
+	--tabulka-color3:rgb(216, 188, 253);
+	--tabulka-color4:black;
+}
+
+.cenik{
+	position: relative;
+	top:20px;
+	left:10vw;
+	font-family: arial, sans-serif;
+	border-collapse:collapse;
+	width: 50%;
+	top: 100px;
+  }
+
+/*formátování tabulky*/
+.tb1{
+	text-align:center;
+	padding: 10px;
+	background-color: var(--tabulka-color1);
+}
+  td{
+	border: 2px solid var(--tabulka-color4);
+	text-align:center;
+	padding: 13px;
+	background-color: var(--tabulka-color2);
+  }
+  th{
+	border: 2px solid var(--tabulka-color4);
+	text-align:center;
+	padding: 10px;
+	background-color: var(--tabulka-color3);
+  }
+  
