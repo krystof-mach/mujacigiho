@@ -1,3 +1,10 @@
+:root{
+	--tabulka-color1:rgb(226, 210, 255);
+	--tabulka-color2:rgb(232, 215, 255);
+	--tabulka-color3:rgb(216, 188, 253);
+	--tabulka-color4:black;
+}
+
 .cenik{
 	position: relative;
 	top:20px;
@@ -5,60 +12,25 @@
 	font-family: arial, sans-serif;
 	border-collapse:collapse;
 	width: 50%;
+	top: 100px;
   }
+
+/*formátování tabulky*/
 .tb1{
 	text-align:center;
 	padding: 10px;
-	background-color: #1d7680;
+	background-color: var(--tabulka-color1);
 }
   td{
-	border: 2px solid #1d7680;
+	border: 2px solid var(--tabulka-color4);
 	text-align:center;
 	padding: 13px;
-	background-color: #9dd6db;
+	background-color: var(--tabulka-color2);
   }
   th{
-	border: 2px solid #1d7680;
+	border: 2px solid var(--tabulka-color4);
 	text-align:center;
 	padding: 10px;
-	background-color: #6bbac2;
+	background-color: var(--tabulka-color3);
   }
-
-  .navbar{
-	background-color: rgb(9, 95, 95);
-	display: flex;
-	padding: 2vh 2vw;
-	position:absolute;
-	left: 0px;
-	right: 0px;
-	top:12vh;
-}
-.navBar{
-	height: 5vh;
-	position: relative;
-	left: 10px;
-	background-color: rgb(11, 255, 202);
-    border-radius: 0.5rem;
-	border-width: 0px;
-	border-color:rgb(9, 95, 95);
-	margin: 0px 5px;
-	font: 1.2em "Comic Sans MS";
-}
-.navBar:hover{
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-
-}
-.text{
-	color: azure;
-	position: relative;
-	
-}
-.logo{
-	display: flex;
-	position:relative;
-	height:20vh;
-	top:-2.2vh;
-}
-body{
-	background: #5baeb6;
-}
+  
