@@ -5,7 +5,7 @@
 }
 
 :root{
-	--primary-color: #6422a1;
+	--primary-color: #746aff;
 	--light-color: #afb0dd;
 	--dark-color: #666680;
 	--pozadí-color:#dbd8ff;
@@ -29,14 +29,18 @@ ul{
 .navbar2{
 	background-color: var(--pozadí-color);
 	padding: 10px;
+   
+
 }
 .navbar2 .container{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+    
 }
 .navbar2 .main-menu ul {
   display: flex;
+
 }
 .navbar2 ul li a{
 	padding: 10px;

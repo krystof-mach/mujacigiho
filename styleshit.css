@@ -1,0 +1,35 @@
+.nigga-tlacitko{
+	position: relative;
+	left:100px;
+	top: 2000px;
+}
+.textove-pole1 p, h1{
+	position:relative;
+	display:flex;
+	justify-content: center;
+	top: 300vh;
+	color: rgb(133, 31, 31);
+}
+.textove-pole2{
+	position:relative;
+	display:block;	
+	justify-content: center;
+	top: -15vh;
+	left: 30vw;
+	text-shadow:5px;
+	color: rgb(255, 255, 255);
+}
+.textove-pole2	p{
+	font-size: 1.6vh;
+}
+.textove-pole2	h1{
+	font-size: 4vh;
+}
+  
+  .pozadi img {
+    width: 100%;
+    aspect-ratio: 21 / 9; 
+    object-fit: cover; 
+    height: auto; 
+	
+}
