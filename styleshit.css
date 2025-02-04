@@ -11,14 +11,16 @@
 	color: rgb(133, 31, 31);
 }
 .textove-pole2{
-	position:relative;
-	display:block;	
-	justify-content: center;
-	top: -15vh;
-	left: 30vw;
-	text-shadow:5px;
-	color: rgb(255, 255, 255);
+  position: relative;
+  display: flex;
+  top: -15vh;
+  margin-left: 30vw;
+  color: rgb(255, 255, 255);
+  z-index: 5;
+  flex-direction: column;
 }
+
+
 .textove-pole2	p{
 	font-size: 1.6vh;
 }
